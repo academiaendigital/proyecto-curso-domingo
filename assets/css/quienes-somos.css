@@ -1,0 +1,10 @@
+.container-quienes-sommos {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.img-responsive {
+  width: 600px;
+}
+.container-quienes-sommos col ul {
+  /*list-style-type: lower-latin;*/
+}

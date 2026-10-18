@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url(menu.css);
+@import url(quienes-somos.css);
+:root {
+  --main-color: #201658;
+  --purple: #836fff;
+  --mint: #15f5ba;
+  --white: #f0f3ff;
+  --grey: #57595b;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+p {
+  font-size: 16px;
+}

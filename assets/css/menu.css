@@ -1,0 +1,34 @@
+.header-container {
+  background-color: var(--main-color);
+  padding-top: 10px;
+  height: 90px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 1.5rem;
+  padding-left: 30px;
+}
+.navbar-links {
+  color: var(--white);
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.2em;
+}
+.navbar-links li a {
+  color: var(--white);
+}
+.navbar-links li a:hover {
+  color: var(--mint);
+}
+.navbar-links li a:active {
+  color: var(--mint);
+}
+.logo {
+  width: 200px;
+  height: auto;
+}
