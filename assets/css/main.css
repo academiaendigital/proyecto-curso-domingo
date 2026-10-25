@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url(menu.css);
 @import url(quienes-somos.css);
+@import url(servicios.css);
+@import url(footer.css);
 :root {
   --main-color: #201658;
   --purple: #836fff;
@@ -32,4 +34,13 @@ h2 {
 }
 p {
   font-size: 16px;
+}
+.center {
+  text-align: center;
+}
+.upper {
+  text-transform: uppercase;
+}
+.purple-text {
+  color: var(--purple);
 }

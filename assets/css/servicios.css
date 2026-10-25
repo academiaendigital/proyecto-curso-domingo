@@ -1,0 +1,17 @@
+.servicios-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  line-height: 1.2em;
+}
+.servicios-container .col {
+  padding-top: 30px;
+}
+.servicios-container h3 {
+  font-size: 24px;
+  color: var(--purple);
+}
+.servicios-container i {
+  font-size: 24px;
+  color: var(--purple);
+}
