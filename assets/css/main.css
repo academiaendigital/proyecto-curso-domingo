@@ -3,6 +3,7 @@
 @import url(quienes-somos.css);
 @import url(servicios.css);
 @import url(footer.css);
+@import url(contacto.css);
 :root {
   --main-color: #201658;
   --purple: #836fff;
@@ -19,6 +20,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Lato", sans-serif;
+  box-sizing: border-box;
 }
 ul {
   list-style: none;
